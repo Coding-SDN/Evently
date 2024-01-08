@@ -71,6 +71,8 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
+  outline: none;
+  border: none;
 }
 
 body {
