@@ -110,7 +110,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
             name="title"
             render={({ field }) => (
               <FormItem className="w-full">
-                <FormControl>
+                <FormControl className="flex-center h-[54px] w-full overflow-hidden rounded-full bg-grey-50 px-4 py-2">
                   <Input placeholder="Event title" {...field} className="input-field" />
                 </FormControl>
                 <FormMessage />
@@ -137,7 +137,7 @@ const EventForm = ({ userId, type, event, eventId }: EventFormProps) => {
               name="description"
               render={({ field }) => (
                 <FormItem className="w-full">
-                  <FormControl className="h-72">
+                  <FormControl className="h-72 flex-center w-full overflow-hidden rounded-full bg-grey-50 px-4 py-2 resize-none">
                     <Textarea placeholder="Description" {...field} className="textarea rounded-2xl" />
                   </FormControl>
                   <FormMessage />
