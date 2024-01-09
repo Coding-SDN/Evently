@@ -72,7 +72,7 @@
   margin: 0;
   scroll-behavior: smooth;
   outline: none;
-  border: none;
+  /* border: none; */
 }
 
 body {
