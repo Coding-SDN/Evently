@@ -14,7 +14,7 @@ const Footer = () => {
           />
         </Link>
 
-        <p>Coding-SDN 2022 - {new Date().getFullYear()} Evently. All Rights Reserved &copy;.</p>
+        <p>Coding-PH4N70M 2022 - {new Date().getFullYear()} Evently. All Rights Reserved &copy;.</p>
       </div>
     </footer>
   )
