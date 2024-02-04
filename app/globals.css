@@ -273,6 +273,10 @@ body {
   border-radius: 4px;
 }
 
+.bg-sign {
+  background-image: url('https://dashboard.clerk.com/assets/signin-bg.svg');
+}
+
 .react-datepicker__time-list-item--selected {
   background-color: #624cf5 !important;
 }
