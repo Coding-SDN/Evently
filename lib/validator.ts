@@ -10,6 +10,5 @@ export const eventFormSchema = z.object({
   categoryId: z.string(),
   price: z.string(),
   isFree: z.boolean(),
-  url: z.string().url(),
-  category: z.string().min(3, 'Category must be at least 3 characters').max(15, 'Category must be less than 15 characters'),
+  url: z.string().url()
 })
